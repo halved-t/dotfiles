@@ -1,0 +1,24 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": { "source": "~/.config/fastfetch/arch.txt", "padding": { "top": 2, "right": 6, "left": 2 } },
+  "display": {
+    "separator": " ﹥ "
+  },
+  "modules": [
+    "break", "break",
+    {"type": "title", "keyWidth": 10},
+    "break",
+    { "type": "custom", "format": "┌──────────────────────────────────────────┐" },
+    {"type": "os", "keyColor": "30", "key": "    os"},
+    {"type": "host", "keyColor": "31", "key": "    host"},
+    {"type": "kernel", "key": "    kernel", "keyColor": "32"},
+    {"type": "uptime", "key":"    uptime", "keyColor": "33"},
+    {"type": "packages", "key":"    pkgs", "keyColor": "34", "format": "{} (pacman)"},
+    {"type": "shell", "key":"    shell", "keyColor": "35"},
+    {"type": "wm", "key": "    wm", "keyColor": "36"},
+    {"type": "memory", "key": "    mem", "keyColor": "37", "format": "{} / {}"},
+    {"type": "disk", "key": "    disk", "keyColor": "38", "format": "{} / {}"},
+    { "type": "custom", "format": "└──────────────────────────────────────────┘" },
+    "break", "break", "break"
+  ]
+}
