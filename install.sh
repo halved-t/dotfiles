@@ -54,7 +54,6 @@ echo "Installation is finished."
 echo "You should probably restart your system now."
 }
 
-# Betik Başlangıcı
 printtext
 read -p "Do you want to install the applications? (y/n) " yn
 case $yn in
