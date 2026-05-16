@@ -14,7 +14,7 @@ echo
 installprogrs(){
 echo "Installing programs..."
 cd ~
-sudo pacman -Syu hyprland hyprpaper hyprlock alacritty quickshell clang base-devel ninja cmake git qemu-full dolphin mako pipewire wireplumber pipewire-alsa pipewire-pulse pavucontrol xdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland noto-fonts noto-fonts-emoji noto-fonts-extra noto-fonts-cjk nerd-fonts woff2-font-awesome xorg-xwayland fastfetch wofi hyprpicker cliphist wl-clip-persist greetd greetd-tuigreet ripgrep fzf zoxide dialog wget btop tmux screen qt6
+sudo pacman -Syu hyprland hyprpaper hyprlock alacritty quickshell clang base-devel ninja cmake git qemu-full dolphin mako pipewire wireplumber pipewire-alsa pipewire-pulse pavucontrol xdg-desktop-portal-hyprland hyprpolkitagent qt5-wayland qt6-wayland noto-fonts noto-fonts-emoji noto-fonts-extra noto-fonts-cjk nerd-fonts woff2-font-awesome xorg-xwayland fastfetch wofi hyprpicker cliphist wl-clip-persist greetd greetd-tuigreet ripgrep fzf zoxide dialog wget btop tmux screen qt6 nasm openssh
 
 git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd .. && rm -rf yay
 yay -S --noconfirm zen-browser-bin spotify visual-studio-code-bin vesktop ttf-google-sans-code-vf
