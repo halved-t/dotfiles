@@ -40,6 +40,7 @@ ln -sf ~/.config/dotfiles/dots/alacritty ~/.config/alacritty
 ln -sf ~/.config/dotfiles/dots/hypr ~/.config/hypr
 ln -sf ~/.config/dotfiles/dots/fastfetch ~/.config/fastfetch
 ln -sf ~/.config/dotfiles/dots/wofi ~/.config/wofi
+ln -sf ~/.config/dotfiles/dots/vscode/settings.json ~/.config/Code/User/settings.json
 
 sed -i 's/OSH_THEME="font"/OSH_THEME="robbyrussell"/' ~/.bashrc
 

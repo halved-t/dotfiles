@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "catppuccin-perfect-mocha",
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://github.com": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'Google Sans Code', monospace",
+    "editor.fontSize": 16,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    "editor.quickSuggestionsDelay": 1500
+}
