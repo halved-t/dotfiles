@@ -1,5 +1,0 @@
-terminal = "alacritty"
-fileManager = "dolphin"
-launcher = "wofi"
-menu = "wofi"
-mainMod = "SUPER"

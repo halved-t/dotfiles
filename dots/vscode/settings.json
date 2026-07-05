@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Dracula Theme",
     "workbench.iconTheme": "catppuccin-perfect-mocha",
     "json.schemaDownload.trustedDomains": {
         "https://developer.microsoft.com/json-schemas/": true,
@@ -20,5 +19,6 @@
         "editor.insertSpaces": false,
         "editor.tabSize": 4
     },
-    "editor.quickSuggestionsDelay": 1500
+    "editor.quickSuggestionsDelay": 1500,
+    "workbench.colorTheme": "Dracula Theme"
 }
