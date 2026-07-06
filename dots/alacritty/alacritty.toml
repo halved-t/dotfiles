@@ -30,6 +30,8 @@ magenta = "#ff92df"
 cyan = "#a4ffff"
 white = "#ffffff"
 
+
+
 [font]
 normal = { family = "Google Sans Code", style = "Regular" }
 bold = { family = "Google Sans Code", style = "Bold" }

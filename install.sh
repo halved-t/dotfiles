@@ -19,7 +19,7 @@ else
   git clone https://github.com/halved-t/dotfiles.git ~/.config/dotfiles
 fi
 
-ln -sf ~/.config/dotfiles/dots/quickshell ~/.config/quickshell
+ln -sf ~/.config/dotfiles/dots/waybar ~/.config/waybar
 ln -sf ~/.config/dotfiles/dots/alacritty ~/.config/alacritty
 ln -sf ~/.config/dotfiles/dots/sway ~/.config/sway
 ln -sf ~/.config/dotfiles/dots/fastfetch ~/.config/fastfetch

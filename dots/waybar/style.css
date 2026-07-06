@@ -1,0 +1,66 @@
+* {
+    border: none;
+    font-family: "Google Sans Code";
+    font-size: 12px;
+    color: #f8f8f2;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    border-bottom: none;
+}
+
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: #282a36;
+
+    border-radius: 12px;
+
+    margin: 8px 8px 0px 8px;
+}
+
+#pulseaudio,
+#battery,
+#tray,
+#clock,
+#mpris {
+    padding: 0 8px;
+}
+
+#workspaces {
+    padding: 0 2px;
+}
+
+#workspaces button {
+    margin: 3px;
+    color: #6272a4;
+}
+
+#workspaces button.focused {
+    color: #bd93f9;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: #ff79c6;
+}
+
+
+#mpris {
+    color: #ff79c6;
+}
+
+#pulseaudio {
+    color: #8be9fd;
+}
+
+#battery {
+    color: #f1fa8c;
+}
+
+#clock {
+    color: #bd93f9;
+}

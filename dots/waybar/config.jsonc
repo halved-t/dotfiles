@@ -1,0 +1,45 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 0,
+    "spacing": 0,
+    "margin-bottom": -8,
+
+    "modules-left": [
+        "sway/workspaces"
+    ],
+
+    "modules-center": [
+        "mpris"
+    ],
+
+    "modules-right": [
+        "pulseaudio",
+        "battery",
+        "tray",
+        "clock"
+    ],
+
+    "mpris": {
+    "format": "󰎈 {title} — {artist}",
+    "dynamic-len": 40,
+    "ellipsis": "…"
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰝟 Muted"
+    },
+
+    "battery": {
+        "format": "󰁹 {capacity}%"
+    },
+
+    "clock": {
+        "format": "󰥔 {:%H:%M:%S}"
+    },
+
+    "tray": {
+        "spacing": 8
+    }
+}
