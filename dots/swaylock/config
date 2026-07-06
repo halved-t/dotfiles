@@ -1,0 +1,29 @@
+image=/usr/share/backgrounds/pref2.png
+indicator
+indicator-radius=100
+indicator-thickness=10
+clock
+timestr=%H:%M
+datestr=%a, %B%e
+font=Google Sans Code
+font-size=24
+inside-color=282a36cc
+inside-clear-color=282a36cc
+inside-caps-lock-color=282a36cc
+inside-ver-color=282a36cc
+inside-wrong-color=282a36cc
+text-color=f8f8f2
+text-clear-color=f8f8f2
+text-caps-lock-color=f8f8f2
+text-ver-color=f8f8f2
+text-wrong-color=ff5555
+ring-color=21222c
+ring-clear-color=f1fa8c
+ring-caps-lock-color=ff79c6
+ring-ver-color=8be9fd
+ring-wrong-color=ff5555
+key-hl-color=50fa7b
+caps-lock-key-hl-color=ff79c6
+bs-hl-color=ff5555
+line-color=00000000
+separator-color=00000000

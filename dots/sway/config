@@ -40,6 +40,9 @@ input type:keyboard {
     # Start your launcher
     bindsym $mod+d exec $menu
 
+    # Lock the computer
+    bindsym $mod+alt+l exec swaylock
+
     # Drag floating windows by holding down $mod and left mouse button.
     floating_modifier $mod normal
 

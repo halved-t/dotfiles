@@ -19,12 +19,13 @@ else
   git clone https://github.com/halved-t/dotfiles.git ~/.config/dotfiles
 fi
 
-ln -sf ~/.config/dotfiles/dots/waybar ~/.config/waybar
-ln -sf ~/.config/dotfiles/dots/alacritty ~/.config/alacritty
-ln -sf ~/.config/dotfiles/dots/sway ~/.config/sway
-ln -sf ~/.config/dotfiles/dots/fastfetch ~/.config/fastfetch
-ln -sf ~/.config/dotfiles/dots/wofi ~/.config/wofi
-ln -sf ~/.config/dotfiles/dots/vscode/settings.json ~/.config/Code/User/settings.json
+[ -L ~/.config/waybar ] || ln -s ~/.config/dotfiles/dots/waybar ~/.config/waybar
+[ -L ~/.config/alacritty ] || ln -s ~/.config/dotfiles/dots/alacritty ~/.config/alacritty
+[ -L ~/.config/sway ] || ln -s ~/.config/dotfiles/dots/sway ~/.config/sway
+[ -L ~/.config/swaylock ] || ln -s ~/.config/dotfiles/dots/swaylock ~/.config/swaylock
+[ -L ~/.config/fastfetch ] || ln -s ~/.config/dotfiles/dots/fastfetch ~/.config/fastfetch
+[ -L ~/.config/wofi ] || ln -s ~/.config/dotfiles/dots/wofi ~/.config/wofi
+[ -L ~/.config/Code/User/settings.json ] || ln -s ~/.config/dotfiles/dots/vscode/settings.json ~/.config/Code/User/settings.json
 }
 
 read -p "do yay setup+omb? (y/n) " yn
